@@ -16,6 +16,10 @@ public class Main {
         shop.addVehicle(new sedan("Lada", "2107", 10000, "camry.jpg", new engineSpecs("V8", 388)));
         shop.addVehicle(new sedan("MG", "7", 1000000, "camry.jpg", new engineSpecs("V8", 405)));
 
+        shop.addNewVehicle(new sedan("Toyota", "Camry", 25000, "camry.jpg", new engineSpecs("V8", 300)));
+        shop.removeVehicle(0);
+        shop.searchByPrice(40000);
+
         boolean running = true;
 
         while (running) {

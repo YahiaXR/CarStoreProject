@@ -26,6 +26,20 @@ public class inventory {
         }
         return null;
     }
+    public void addNewVehicle(vehicle v){
+        vehicleList.add(v);
+    }
+    public void removeVehicle(int x){
+        vehicleList.remove(x);
+    }
+    public vehicle searchByPrice(double price){
+        for(vehicle v : vehicleList){
+            if(v.getPrice()<=price){
+                return v;
+            }
+        }
+        return null;
+    }
 
 
 }
