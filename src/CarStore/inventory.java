@@ -35,7 +35,7 @@ public class inventory {
     public vehicle searchByPrice(double price){
         for(vehicle v : vehicleList){
             if(v.getPrice()<=price){
-                return v;
+                System.out.println(v.getDetails());
             }
         }
         return null;
