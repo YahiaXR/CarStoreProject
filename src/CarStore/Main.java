@@ -8,13 +8,14 @@ public class Main {
         inventory shop = new inventory();
         Scanner scanner = new Scanner(System.in);
 
-
+        // CARS GET ADDED HERE
         shop.addVehicle(new sedan("Toyota", "Camry", 25000, "camry.jpg", new engineSpecs("V8", 300)));
         shop.addVehicle(new sedan("Toyota", "Yaris", 40000, "camry.jpg", new engineSpecs("V8", 210)));
         shop.addVehicle(new sedan("Toyota", "Corolla", 100000, "camry.jpg", new engineSpecs("V8", 388)));
         shop.addVehicle(new sedan("BYD", "F3", 150000, "camry.jpg", new engineSpecs("V8", 388)));
         shop.addVehicle(new sedan("Lada", "2107", 10000, "camry.jpg", new engineSpecs("V8", 388)));
         shop.addVehicle(new sedan("MG", "7", 1000000, "camry.jpg", new engineSpecs("V8", 405)));
+        // CARS GET ADDED HERE I SAID ^^^
 
         shop.addNewVehicle(new sedan("Toyota", "Camry", 25000, "camry.jpg", new engineSpecs("V8", 300)));
         shop.removeVehicle(0);
