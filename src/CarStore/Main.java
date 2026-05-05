@@ -9,11 +9,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-        shop.addVehicle(new sedan("Toyota", "Camry", 25000, "camry.jpg", new engineSpecs("V6", 300)));
-        shop.addVehicle(new sedan("Toyota", "Yaris", 40000, "camry.jpg", new engineSpecs("V4", 210)));
+        shop.addVehicle(new sedan("Toyota", "Camry", 25000, "camry.jpg", new engineSpecs("V8", 300)));
+        shop.addVehicle(new sedan("Toyota", "Yaris", 40000, "camry.jpg", new engineSpecs("V8", 210)));
         shop.addVehicle(new sedan("Toyota", "Corolla", 100000, "camry.jpg", new engineSpecs("V8", 388)));
-        shop.addVehicle(new sedan("BYD", "F3", 150000, "camry.jpg", new engineSpecs("idk", 388)));
-        shop.addVehicle(new sedan("Lada", "2107", 10000, "camry.jpg", new engineSpecs("V100 Pro Max", 388)));
+        shop.addVehicle(new sedan("BYD", "F3", 150000, "camry.jpg", new engineSpecs("V8", 388)));
+        shop.addVehicle(new sedan("Lada", "2107", 10000, "camry.jpg", new engineSpecs("V8", 388)));
         shop.addVehicle(new sedan("MG", "7", 1000000, "camry.jpg", new engineSpecs("V8", 405)));
 
         boolean running = true;
@@ -49,7 +49,7 @@ public class Main {
                         break;
                     case 3:
                         running = false;
-                        System.out.println("Exiting system...");
+                        System.out.println("Exiting...");
                         break;
                     default:
                         System.out.println("Invalid choice. Try again.");
