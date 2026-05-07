@@ -4,19 +4,21 @@ public abstract class vehicle {
 
     private String make;
     private String model;
-    private double price;
+    private int price;
     private String imagePath;
+    private int year;
     protected engineSpecs Engine;
+    private int doors;
 
 
-    public vehicle(String make, String model, double price, String imagePath, engineSpecs engine){
-
+    public vehicle(String make, String model, int year, int price, engineSpecs engine, String imagePath, int doors) {
         this.make = make;
         this.model = model;
+        this.year = year;
         this.price = price;
-        this.imagePath = imagePath;
         this.Engine = engine;
-
+        this.imagePath = imagePath;
+        this.doors = doors;
     }
 
     public abstract String getDetails();
@@ -29,11 +31,23 @@ public abstract class vehicle {
         return model;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
 
     public String getImagePath() {
         return imagePath;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public engineSpecs getEngine() {
+        return Engine;
     }
 }
