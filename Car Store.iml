@@ -10,5 +10,6 @@
     <orderEntry type="library" name="openjfx-26.0.1_linux-x64_bin-sdk" level="project" />
     <orderEntry type="library" name="javafx-sdk-26.0" level="project" />
     <orderEntry type="library" name="javafx-swt" level="project" />
+    <orderEntry type="library" name="javafx.base" level="project" />
   </component>
 </module>

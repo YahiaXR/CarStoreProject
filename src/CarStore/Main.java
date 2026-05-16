@@ -11,7 +11,11 @@ public class Main {
 
         // CARS GET ADDED HERE
 
+        //Dodge
+        myInventory.addVehicle(new truck("Dodge", "RAM 1500", 2022, 40000, basicEngine, "2022_Dodge_RAM 1500_Trans_Front.png", 4, 1.71, 651));
+
         // Toyota
+        myInventory.addVehicle(new truck("Toyota", "Hilux", 2017, 30000, basicEngine, "2017_Toyota_Hilux_Trans_Front.png", 4,1.52,450));
         myInventory.addVehicle(new sedan("Toyota", "Camry", 2018, 19000, basicEngine, "2018_Toyota_Camry_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Toyota", "Corolla", 2019, 18000, basicEngine, "2019_Toyota_Corolla_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Toyota", "Yaris", 2007, 16000, basicEngine, "2007_Toyota_Yaris_Trans_Front.png", 4));
