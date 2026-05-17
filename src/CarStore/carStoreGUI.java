@@ -228,6 +228,10 @@ public class carStoreGUI extends Application {
         galleryTilePane.setHgap(20);
         galleryTilePane.setVgap(20);
 
+        engineSpecs EcoTec3_V8 = new engineSpecs("V8",355,"Gas");
+        engineSpecs Twin_Turbo_V6_EcoBoost = new engineSpecs("V6", 450, "Gas");
+        engineSpecs V6_Turbo_Diesel = new engineSpecs("V6", 161, "Gas");
+
         engineSpecs economyI4 = new engineSpecs("Inline-4", 140, "Gas");
         engineSpecs modernTurboI4 = new engineSpecs("Turbo I4", 250, "Gas");
         engineSpecs luxuryV6 = new engineSpecs("V6", 310, "Gas");
@@ -240,9 +244,17 @@ public class carStoreGUI extends Application {
         engineSpecs vintageI4 = new engineSpecs("Inline-4", 75, "Gas");
         engineSpecs smallI4 = new engineSpecs("Inline-4", 105, "Gas");
 
+        //GMC
+        myInventory.addVehicle(new truck("GMC", "Sierra 1500", 2017, 45000, EcoTec3_V8, "2017_GMC _Sierra 1500_Trans_Front.png", 4, 1.78, 519));
 
+        //Ford
+        myInventory.addVehicle(new truck("Ford", "F-150 Raptor", 2017, 67000, Twin_Turbo_V6_EcoBoost, "2017_Ford_F-150 Raptor_Trans_Fronts.png", 2, 1.49, 691));
+
+        //Dodge
+        myInventory.addVehicle(new truck("Dodge", "RAM 1500", 2022, 40000, luxuryV6, "2022_Dodge_RAM 1500_Trans_Front.png",4 ,1.72, 651));
 
         // Toyota
+        myInventory.addVehicle(new truck("Toyota", "Hilux", 2017, 30000,modernTurboI4, "2017_Toyota_Hilux_Trans_Front.png", 4,1.52,450));
         myInventory.addVehicle(new sedan("Toyota", "Camry", 2018, 19000, modernTurboI4, "2018_Toyota_Camry_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Toyota", "Corolla", 2019, 18000, luxuryV6, "2019_Toyota_Corolla_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Toyota", "Yaris", 2007, 16000, economyI4, "2007_Toyota_Yaris_Trans_Front.png", 4));
@@ -265,6 +277,7 @@ public class carStoreGUI extends Application {
         myInventory.addVehicle(new sedan("Hyundai", "Tucson", 2018, 14000, economyI4, "2018_Hyundai_Tucson_Trans_Front.png", 4));
 
         // Chevrolet
+        myInventory.addVehicle(new truck("Chevrolet", "Silverado 1500", 2015,35000, EcoTec3_V8, "2015_Chevrolet_Silverado 1500_Trans_Front.png",4, 1.78, 355 ));
         myInventory.addVehicle(new sedan("Chevrolet", "Prisma", 2017, 13400, economyI4, "2017_Chevrolet_Prisma_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Chevrolet", "Aveo", 2010, 2975, economyI4, "2010_Chevrolet_Aveo_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Chevrolet", "CamaroSS", 2015, 22000, luxuryV6, "2015_Chevrolet_Camaro_Trans_Front.png", 2));
@@ -287,6 +300,7 @@ public class carStoreGUI extends Application {
         myInventory.addVehicle(new sedan("BMW", "X6", 2019, 75000, modernTurboI4, "2019_BMW_X6_Trans_Front.png", 4));
 
         // Volkswagen
+        myInventory.addVehicle(new truck("Volkswagen","Amarok", 2020, 55000, V6_Turbo_Diesel, "2020_Volkswagen_Amarok_Trans_Front.png",4, 2.52, 550));
         myInventory.addVehicle(new sedan("Volkswagen", "Passat", 2018, 18500, modernTurboI4, "2018_Wolkswagen_Passat_Trans_Front.png", 4));
 
         // Rolls-Royce

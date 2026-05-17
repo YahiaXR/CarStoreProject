@@ -11,6 +11,12 @@ public class Main {
 
         // CARS GET ADDED HERE
 
+        //GMC
+        myInventory.addVehicle(new truck("GMC", "Sierra 1500", 2017, 45000, basicEngine, "2017_GMC _Sierra 1500_Trans_Front.png", 4, 1.78, 519));
+
+        //Ford
+        myInventory.addVehicle(new truck("Ford", "F-150 Raptor", 2017, 67000, basicEngine, "2017_Ford_F-150 Raptor_Trans_Fronts.png", 2, 1.49, 691));
+
         //Dodge
         myInventory.addVehicle(new truck("Dodge", "RAM 1500", 2022, 40000, basicEngine, "2022_Dodge_RAM 1500_Trans_Front.png", 4, 1.71, 651));
 
@@ -38,6 +44,7 @@ public class Main {
         myInventory.addVehicle(new sedan("Hyundai", "Tucson", 2018, 14000, basicEngine, "2018_Hyundai_Tucson_Trans_Front.png", 4));
 
         // Chevrolet
+        myInventory.addVehicle(new truck("Chevrolet", "Silverado 1500", 2015,35000, basicEngine, "2015_Chevrolet_Silverado 1500_Trans_Front.png",4, 1.78, 355 ));
         myInventory.addVehicle(new sedan("Chevrolet", "Prisma", 2017, 13400, basicEngine, "2017_Chevrolet_Prisma_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Chevrolet", "Aveo", 2010, 2975, basicEngine, "2010_Chevrolet_Aveo_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Chevrolet", "CamaroSS", 2015, 22000, basicEngine, "2015_Chevrolet_Camaro_Trans_Front.png", 2));
@@ -60,6 +67,7 @@ public class Main {
         myInventory.addVehicle(new sedan("BMW", "X6", 2019, 75000, basicEngine, "2019_BMW_X6_Trans_Front.png", 4));
 
         // Volkswagen
+        myInventory.addVehicle(new truck("Volkswagen","Amarok", 2020, 55000, basicEngine, "2020_Volkswagen_Amarok_Trans_Front.png",4, 1.28, 550));
         myInventory.addVehicle(new sedan("Volkswagen", "Passat", 2018, 18500, basicEngine, "2018_Wolkswagen_Passat_Trans_Front.png", 4));
 
         // Rolls-Royce
