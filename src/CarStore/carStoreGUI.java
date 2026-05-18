@@ -228,6 +228,10 @@ public class carStoreGUI extends Application {
         galleryTilePane.setHgap(20);
         galleryTilePane.setVgap(20);
 
+        engineSpecs VVA = new engineSpecs("VVA", 15, "Gas");
+        engineSpecs V_TwinEngine = new engineSpecs("V-Twin",72, "Gas");
+        engineSpecs DOCH = new engineSpecs("DOCH", 120, "Gas");
+
         engineSpecs EcoTec3_V8 = new engineSpecs("V8",355,"Gas");
         engineSpecs Twin_Turbo_V6_EcoBoost = new engineSpecs("V6", 450, "Gas");
         engineSpecs V6_Turbo_Diesel = new engineSpecs("V6", 161, "Gas");
@@ -243,6 +247,13 @@ public class carStoreGUI extends Application {
 
         engineSpecs vintageI4 = new engineSpecs("Inline-4", 75, "Gas");
         engineSpecs smallI4 = new engineSpecs("Inline-4", 105, "Gas");
+
+        //Yamaha
+        myInventory.addVehicle(new motorbike("Yamaha", "NMAX 155",2017, 3500, VVA, "2017_Yamaha_NMAX 155_Trans_Front.png", 0 ,2));
+        myInventory.addVehicle(new motorbike("Yamaha", "Stryker Bullet Cowl", 2016, 12100, V_TwinEngine, "2016_Yamaha_Stryker Bullet Cowl_Trans_Front.png", 0, 2));
+
+        //Suzuki
+        myInventory.addVehicle(new motorbike("Suzuki", "GSX-R600",2005, 8300, DOCH, "2005_Suzuki_GSX-R600_Trans_Front.png",0, 2  ));
 
         //GMC
         myInventory.addVehicle(new truck("GMC", "Sierra 1500", 2017, 45000, EcoTec3_V8, "2017_GMC _Sierra 1500_Trans_Front.png", 4, 1.78, 519));

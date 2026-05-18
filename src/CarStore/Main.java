@@ -9,7 +9,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         engineSpecs basicEngine = new engineSpecs("V6", 300,"Gas");
 
-        // CARS GET ADDED HERE
+        // VEHICLES GET ADDED HERE
+
+        //Yamaha
+        myInventory.addVehicle(new motorbike("Yamaha", "NMAX 155",2017, 3500, basicEngine, "2017_Yamaha_NMAX 155_Trans_Front.png", 0 ,2));
+        myInventory.addVehicle(new motorbike("Yamaha", "Stryker Bullet Cowl", 2016, 12100, basicEngine, "2016_Yamaha_Stryker Bullet Cowl_Trans_Front.png", 0, 2));
+
+        //Suzuki
+        myInventory.addVehicle(new motorbike("Suzuki", "GSX-R600",2005, 8300, basicEngine, "2005_Suzuki_GSX-R600_Trans_Front.png",0, 2  ));
 
         //GMC
         myInventory.addVehicle(new truck("GMC", "Sierra 1500", 2017, 45000, basicEngine, "2017_GMC _Sierra 1500_Trans_Front.png", 4, 1.78, 519));
