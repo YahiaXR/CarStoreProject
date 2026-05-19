@@ -14,5 +14,12 @@ public class sedan extends vehicle{
         return "Sedan: " + getMake() + " " + getModel() + " | Price: " + getPrice();
     }
 
-
+    @Override
+    public Spec[] getUiSpecs() {
+        return new Spec[] {
+                new Spec("\uf52f", getEngine().getFuel()),
+                new Spec("\uf538", getEngine().getEngineSpecs()),
+                new Spec("\uf52b", getDoors() + " Doors")
+        };
+    }
 }
