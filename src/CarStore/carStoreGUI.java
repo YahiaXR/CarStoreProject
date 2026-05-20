@@ -212,6 +212,9 @@ public class carStoreGUI extends Application {
         galleryTilePane.setHgap(20);
         galleryTilePane.setVgap(20);
 
+        engineSpecs D4GA = new engineSpecs("D4GA", 140, "Gas");
+        engineSpecs _1HZ = new engineSpecs("Toyota", 130, "Gas");
+        engineSpecs D13 = new engineSpecs("D13", 435, "Gas");
         engineSpecs BlueTec_6 = new engineSpecs("BlueTec", 315, "Gas");
         engineSpecs coasterDiesel = new engineSpecs("4.2L Inline-6", 129, "Diesel");
         engineSpecs hiaceDiesel = new engineSpecs("2.8L Inline-4", 174, "Diesel");
@@ -250,6 +253,8 @@ public class carStoreGUI extends Application {
         myInventory.addVehicle(new ev("Tesla", "Model Y", 2025, 48000, TeslaYMotor, "2025_Tesla_Model Y_Trans_Front.png", 4, 310, 75));
         myInventory.addVehicle(new ev("Tesla", "Roadster", 2010, 110000, RoadsterV1, "2010_Tesla_Roadster_Trans_Front.png", 2, 244, 53));
 
+        //Volvo
+        myInventory.addVehicle(new bus("Vovlo", "9700", 2014, 420000, D13, "Volvo_9700_2012_Trans_Front.png", 1, 13.7, 55));
 
         //Yamaha
         myInventory.addVehicle(new motorbike("Yamaha", "NMAX 155", 2017, 3500, VVA, "2017_Yamaha_NMAX 155_Trans_Front.png", 0, 2));
@@ -268,6 +273,7 @@ public class carStoreGUI extends Application {
         myInventory.addVehicle(new truck("Dodge", "RAM 1500", 2022, 40000, luxuryV6, "2022_Dodge_RAM 1500_Trans_Front.png", 4, 1.72, 651));
 
         // Toyota
+        myInventory.addVehicle(new bus("Toyota", "Coaster", 2013, 65000, _1HZ, "Toyota_Coaster_2013_Trans_Front.png", 2, 7, 30 ));
         myInventory.addVehicle(new truck("Toyota", "Hilux", 2017, 30000, modernTurboI4, "2017_Toyota_Hilux_Trans_Front.png", 4, 1.52, 450));
         myInventory.addVehicle(new sedan("Toyota", "Camry", 2018, 19000, modernTurboI4, "2018_Toyota_Camry_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Toyota", "Corolla", 2019, 18000, luxuryV6, "2019_Toyota_Corolla_Trans_Front.png", 4));
@@ -295,6 +301,7 @@ public class carStoreGUI extends Application {
         myInventory.addVehicle(new sedan("Daewoo", "Lanos Hatchback", 2002, 1450, economyI4, "2002_Daewoo_Lanos_Hatchback_Trans_Front.png", 4));
 
         // Hyundai
+        myInventory.addVehicle(new bus("Hyundai", "County", 2016, 55000, D4GA, "Hyundai_County_2013_Trans_Front.png", 2, 6.35, 30 ));
         myInventory.addVehicle(new sedan("Hyundai", "Accent", 2003, 1700, smallI4, "2003_Hyundai_Accent_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Hyundai", "Tucson", 2018, 14000, economyI4, "2018_Hyundai_Tucson_Trans_Front.png", 4));
 
