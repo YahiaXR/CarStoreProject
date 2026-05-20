@@ -215,6 +215,7 @@ public class carStoreGUI extends Application {
         engineSpecs BlueTec_6 = new engineSpecs("BlueTec", 315, "Gas");
         engineSpecs coasterDiesel = new engineSpecs("4.2L Inline-6", 129, "Diesel");
         engineSpecs hiaceDiesel = new engineSpecs("2.8L Inline-4", 174, "Diesel");
+        engineSpecs sprinterDiesel = new engineSpecs("2.1L Twin-Turbo I4", 168, "Diesel");
         engineSpecs VVA = new engineSpecs("VVA", 15, "Gas");
         engineSpecs V_TwinEngine = new engineSpecs("V-Twin", 72, "Gas");
         engineSpecs DOCH = new engineSpecs("DOCH", 120, "Gas");
@@ -288,7 +289,7 @@ public class carStoreGUI extends Application {
         myInventory.addVehicle(new sedan("Mercedes-Benz", "S-Class Coupe (S63 AMG)", 2020, 115000, sportV8, "2020_MercedesBenz_S-ClassCoupeS63AMG_Trans_Front.png", 2));
         myInventory.addVehicle(new sedan("Mercedes-Benz", "Maybach (S600)", 2017, 190000, amgV8, "2017_Mercedes-Maybach_Maybach S 600_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Mercedes-Benz", "Evo II", 1990, 80000, smallI4, "1990_Mercedes-Benz_Evo II_Trans_Front.png", 4));
-        myInventory.addVehicle(new bus("Mercedes-Benz", "Sprinter", 2025, 115000, smallI4, "1990_Mercedes-Benz_Evo II_Trans_Front.png", 4, 7.37, 23));
+        myInventory.addVehicle(new bus("Mercedes-Benz", "Sprinter Passenger", 2025, 115000, sprinterDiesel, "2025_Mercedes_Sprinter Passenger_Trans_Front.png", 4, 7.37, 23));
 
         // Daewoo
         myInventory.addVehicle(new sedan("Daewoo", "Lanos Hatchback", 2002, 1450, economyI4, "2002_Daewoo_Lanos_Hatchback_Trans_Front.png", 4));
@@ -310,6 +311,10 @@ public class carStoreGUI extends Application {
 
         // Porsche
         myInventory.addVehicle(new sedan("Porsche", "911 Turbo S (Type 911.2)", 2017, 185000, porscheFlat6, "2018_Porsche_911TS_Trans_Front.png", 2));
+
+        // Setra
+        myInventory.addVehicle(new sedan("Porsche", "911 Turbo S (Type 911.2)", 2017, 185000, porscheFlat6, "2018_Porsche_911TS_Trans_Front.png", 2));
+
 
         // Lada
         myInventory.addVehicle(new sedan("Lada", "2107", 1982, 1700, vintageI4, "2107_Lada_2107_Trans_Front.png", 4));
