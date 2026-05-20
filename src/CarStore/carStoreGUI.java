@@ -212,6 +212,7 @@ public class carStoreGUI extends Application {
         galleryTilePane.setHgap(20);
         galleryTilePane.setVgap(20);
 
+        engineSpecs BlueTec_6 = new engineSpecs("BlueTec", 315, "Gas");
         engineSpecs coasterDiesel = new engineSpecs("4.2L Inline-6", 129, "Diesel");
         engineSpecs hiaceDiesel = new engineSpecs("2.8L Inline-4", 174, "Diesel");
         engineSpecs VVA = new engineSpecs("VVA", 15, "Gas");
@@ -281,6 +282,7 @@ public class carStoreGUI extends Application {
 
 
         // Mercedes
+        myInventory.addVehicle(new bus("Mercedes-Benz", "Toursimo L", 2013, 300000, BlueTec_6,"Mercedes-Benz_Toursimo L_2013_Trans_Front.png", 2, 13.95, 65));
         myInventory.addVehicle(new sedan("Mercedes-Benz", "A-Class", 2018, 24000, luxuryV6, "2018_MercedesBenz_A-Class_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Mercedes-Benz", "C-Class", 2018, 50000, luxuryV6, "2018_MeredesBenz_C-Class_Trans_Front.png", 4));
         myInventory.addVehicle(new sedan("Mercedes-Benz", "S-Class Coupe (S63 AMG)", 2020, 115000, sportV8, "2020_MercedesBenz_S-ClassCoupeS63AMG_Trans_Front.png", 2));
