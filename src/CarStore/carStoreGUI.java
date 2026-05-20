@@ -281,12 +281,12 @@ public class carStoreGUI extends Application {
 
 
         // Mercedes
-        myInventory.addVehicle(new sedan("Mercedes Benz", "A-Class", 2018, 24000, luxuryV6, "2018_MercedesBenz_A-Class_Trans_Front.png", 4));
-        myInventory.addVehicle(new sedan("Mercedes Benz", "C-Class", 2018, 50000, luxuryV6, "2018_MeredesBenz_C-Class_Trans_Front.png", 4));
-        myInventory.addVehicle(new sedan("Mercedes Benz", "S-Class Coupe (S63 AMG)", 2020, 115000, sportV8, "2020_MercedesBenz_S-ClassCoupeS63AMG_Trans_Front.png", 2));
-        myInventory.addVehicle(new sedan("Mercedes Benz", "Maybach (S600)", 2017, 190000, amgV8, "2017_Mercedes-Maybach_Maybach S 600_Trans_Front.png", 4));
-        myInventory.addVehicle(new sedan("Mercedes Benz", "Evo II", 1990, 80000, smallI4, "1990_Mercedes-Benz_Evo II_Trans_Front.png", 4));
-        myInventory.addVehicle(new bus("Mercedes Benz", "Sprinter", 2025, 115000, smallI4, "1990_Mercedes-Benz_Evo II_Trans_Front.png", 4, 7.37, 23));
+        myInventory.addVehicle(new sedan("Mercedes-Benz", "A-Class", 2018, 24000, luxuryV6, "2018_MercedesBenz_A-Class_Trans_Front.png", 4));
+        myInventory.addVehicle(new sedan("Mercedes-Benz", "C-Class", 2018, 50000, luxuryV6, "2018_MeredesBenz_C-Class_Trans_Front.png", 4));
+        myInventory.addVehicle(new sedan("Mercedes-Benz", "S-Class Coupe (S63 AMG)", 2020, 115000, sportV8, "2020_MercedesBenz_S-ClassCoupeS63AMG_Trans_Front.png", 2));
+        myInventory.addVehicle(new sedan("Mercedes-Benz", "Maybach (S600)", 2017, 190000, amgV8, "2017_Mercedes-Maybach_Maybach S 600_Trans_Front.png", 4));
+        myInventory.addVehicle(new sedan("Mercedes-Benz", "Evo II", 1990, 80000, smallI4, "1990_Mercedes-Benz_Evo II_Trans_Front.png", 4));
+        myInventory.addVehicle(new bus("Mercedes-Benz", "Sprinter", 2025, 115000, smallI4, "1990_Mercedes-Benz_Evo II_Trans_Front.png", 4, 7.37, 23));
 
         // Daewoo
         myInventory.addVehicle(new sedan("Daewoo", "Lanos Hatchback", 2002, 1450, economyI4, "2002_Daewoo_Lanos_Hatchback_Trans_Front.png", 4));
